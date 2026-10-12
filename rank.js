@@ -592,7 +592,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     document.getElementById("category-filter").addEventListener("change", renderTeacherTable);
-    document.getElementById("refresh-btn").addEventListener("click", () => fetchData());
+  
 
     document.getElementById("teacher-table-body").addEventListener("click", event => {
         const button = event.target.closest(".teacher-name-button");
