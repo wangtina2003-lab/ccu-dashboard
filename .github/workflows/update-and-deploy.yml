@@ -2,7 +2,7 @@ name: 更新教師瀏覽數並發布網站
 
 on:
   schedule:
-    - cron: "7 * * * *"   # 每小時第 7 分執行（GitHub 排程尖峰時可能延遲幾分鐘）
+    - cron: "7,37 * * * *"   # 每小時第 7 分執行（GitHub 排程尖峰時可能延遲幾分鐘）
   workflow_dispatch:       # 允許在 Actions 頁面手動按「Run workflow」
   push:
     branches: [main]       # 你修改網頁並上傳後，也會自動重新發布
