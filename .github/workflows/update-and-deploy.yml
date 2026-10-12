@@ -1,0 +1,73 @@
+name: 更新教師瀏覽數並發布網站
+
+on:
+  schedule:
+    - cron: "7 * * * *"   # 每小時第 7 分執行（GitHub 排程尖峰時可能延遲幾分鐘）
+  workflow_dispatch:       # 允許在 Actions 頁面手動按「Run workflow」
+  push:
+    branches: [main]       # 你修改網頁並上傳後，也會自動重新發布
+
+permissions:
+  contents: write   # 讓機器人把新資料存回儲存庫
+  pages: write      # 發布 GitHub Pages
+  id-token: write
+
+concurrency:
+  group: update-and-deploy
+  cancel-in-progress: false
+
+jobs:
+  crawl-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: 取得程式碼
+        uses: actions/checkout@v4
+
+      - name: 安裝 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 安裝套件
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: 執行爬蟲
+        id: crawl
+        continue-on-error: true   # 爬蟲失敗時仍發布網站（顯示上一次的資料）
+        run: python crawl.py
+
+      - name: 把新資料存回儲存庫
+        if: steps.crawl.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.json views_cache.json
+          if git diff --cached --quiet; then
+            echo "資料沒有變化"
+          else
+            git commit -m "自動更新教師瀏覽數"
+            git push
+          fi
+
+      - name: 準備要發布的檔案
+        run: |
+          mkdir _site
+          cp index.html rank.css rank.js data.json _site/
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: 發布到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
