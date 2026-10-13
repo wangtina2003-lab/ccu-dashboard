@@ -45,7 +45,7 @@ async function fetchData() {
             })
             : "--";
         document.getElementById("last-updated").innerText =
-            `資料更新：${updatedAt}（每小時自動更新）`;
+            `資料更新：${updatedAt}（每天自動更新）`;
         scheduleFetch(AUTO_RELOAD_MS);
     } catch (error) {
         console.error("無法取得數據:", error);
