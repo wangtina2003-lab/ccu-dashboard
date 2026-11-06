@@ -2,15 +2,15 @@
  "status": "success",
  "cache_ready": true,
  "refreshing": false,
- "updated_at": "2026-11-05T22:07:54.320463+00:00",
- "total_views": 227407,
+ "updated_at": "2026-11-06T02:34:48.189692+00:00",
+ "total_views": 227410,
  "teachers": [
   {
    "name": "黃正魁",
    "category": "運籌學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31588,c3236.php?Lang=zh-tw",
-   "views": 19152,
-   "average_daily_views": 51.54838709677419,
+   "views": 19155,
+   "average_daily_views": 51.645161290322584,
    "baseline_date": "2026-10-06",
    "keywords": [
     "Big Data/資料探勘/商業智慧",
@@ -252,7 +252,7 @@
   }
  ],
  "categories": {
-  "運籌學程": 42101,
+  "運籌學程": 42104,
   "人力資源學程": 45005,
   "策略學程": 45596,
   "行銷學程": 51036,
