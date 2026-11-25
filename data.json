@@ -2,15 +2,15 @@
  "status": "success",
  "cache_ready": true,
  "refreshing": false,
- "updated_at": "2026-11-24T23:07:11.864025+00:00",
- "total_views": 234136,
+ "updated_at": "2026-11-25T05:30:50.972401+00:00",
+ "total_views": 234227,
  "teachers": [
   {
    "name": "黃正魁",
    "category": "運籌學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31588,c3236.php?Lang=zh-tw",
-   "views": 19638,
-   "average_daily_views": 41.68,
+   "views": 19648,
+   "average_daily_views": 41.88,
    "baseline_date": "2026-10-06",
    "keywords": [
     "Big Data/資料探勘/商業智慧",
@@ -24,8 +24,8 @@
    "name": "許嘉文",
    "category": "策略學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-42953,c3236.php?Lang=zh-tw",
-   "views": 16812,
-   "average_daily_views": 26.74,
+   "views": 16815,
+   "average_daily_views": 26.8,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 策略管理 2. 國際企業管理 3. 企業成長與能力發展 4. 海外直接投資"
@@ -35,8 +35,8 @@
    "name": "鎮明常",
    "category": "財務學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31582,c3236.php?Lang=zh-tw",
-   "views": 14726,
-   "average_daily_views": 27.08,
+   "views": 14732,
+   "average_daily_views": 27.2,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 公司財務管理 2. 證券投資分析 3. 證券交易實務 4. 財富管理 5. 企業價值與證券價值評估 6. 金融市場與機構 7. 投資銀行 8. 衍生性金融商品與風險管理 9. 產業競爭力分析 10. 管理經濟學 11. 個體經濟學 12. 價格理論與應用 13. 經濟成長與發展"
@@ -46,8 +46,8 @@
    "name": "連雅慧",
    "category": "人力資源學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31584,c3236.php?Lang=zh-tw",
-   "views": 14132,
-   "average_daily_views": 27.86,
+   "views": 14135,
+   "average_daily_views": 27.92,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 組織發展 2. 訓練發展 3. 人力資源發展 4. 生涯發展"
@@ -57,8 +57,8 @@
    "name": "曾光華",
    "category": "行銷學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31592,c3236.php?Lang=zh-tw",
-   "views": 12545,
-   "average_daily_views": 25.68,
+   "views": 12551,
+   "average_daily_views": 25.8,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 服務行銷 2. 行銷研究 3. 創意行銷"
@@ -68,8 +68,8 @@
    "name": "莊世杰",
    "category": "行銷學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31587,c3236.php?Lang=zh-tw",
-   "views": 11618,
-   "average_daily_views": 25.34,
+   "views": 11624,
+   "average_daily_views": 25.46,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 消費者行為 2. 行銷管理 3. 行為決策理論 4. 廣告管理"
@@ -79,8 +79,8 @@
    "name": "劉敏熙",
    "category": "人力資源學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31598,c3236.php?Lang=zh-tw",
-   "views": 11412,
-   "average_daily_views": 25.0,
+   "views": 11415,
+   "average_daily_views": 25.06,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 管理學",
@@ -92,8 +92,8 @@
    "name": "宋豪漳",
    "category": "財務學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31599,c3236.php?Lang=zh-tw",
-   "views": 11046,
-   "average_daily_views": 24.8,
+   "views": 11050,
+   "average_daily_views": 24.88,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 財務管理",
@@ -106,8 +106,8 @@
    "name": "陳世彬",
    "category": "運籌學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31583,c3236.php?Lang=zh-tw",
-   "views": 10918,
-   "average_daily_views": 28.08,
+   "views": 10923,
+   "average_daily_views": 28.18,
    "baseline_date": "2026-10-06",
    "keywords": [
     "供應鏈管理分析/績效評估/決策分析/模糊理論在作業管理之應用/管理科學/作業管理"
@@ -117,8 +117,8 @@
    "name": "龔天鈞",
    "category": "策略學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31602,c3236.php?Lang=zh-tw",
-   "views": 10790,
-   "average_daily_views": 23.8,
+   "views": 10794,
+   "average_daily_views": 23.88,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1.策略管理",
@@ -132,8 +132,8 @@
    "name": "賴璽方",
    "category": "人力資源學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31601,c3236.php?Lang=zh-tw",
-   "views": 10789,
-   "average_daily_views": 25.2,
+   "views": 10793,
+   "average_daily_views": 25.28,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1.領導 2.偏差行為 3.認知 4.情緒"
@@ -143,8 +143,8 @@
    "name": "盧龍泉",
    "category": "行銷學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31586,c3236.php?Lang=zh-tw",
-   "views": 10601,
-   "average_daily_views": 25.12,
+   "views": 10608,
+   "average_daily_views": 25.26,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 行銷研究 2. 資料庫行銷 3. 行銷倫理"
@@ -154,8 +154,8 @@
    "name": "游蓓怡",
    "category": "行銷學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31596,c3236.php?Lang=zh-tw",
-   "views": 9984,
-   "average_daily_views": 25.3,
+   "views": 9988,
+   "average_daily_views": 25.38,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 關係行銷 2. 服務行銷 3. 消費者關係參與動機及行為"
@@ -165,8 +165,8 @@
    "name": "楊文芬",
    "category": "人力資源學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31597,c3236.php?Lang=zh-tw",
-   "views": 9939,
-   "average_daily_views": 21.88,
+   "views": 9943,
+   "average_daily_views": 21.96,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 人才招募與組織吸引力 2. 個人差異與人格特質 3. 甄選面談"
@@ -176,8 +176,8 @@
    "name": "王明昌",
    "category": "財務學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31589,c3236.php?Lang=zh-tw",
-   "views": 9843,
-   "average_daily_views": 22.76,
+   "views": 9846,
+   "average_daily_views": 22.82,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 金融科技 2. 巨量投資 3. 投資組合 4. 公司治理 5. 市場微結構"
@@ -187,8 +187,8 @@
    "name": "鄭祥麟",
    "category": "策略學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31591,c3236.php?Lang=zh-tw",
-   "views": 9688,
-   "average_daily_views": 23.16,
+   "views": 9690,
+   "average_daily_views": 23.2,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1.台商中小企業國際化",
@@ -201,8 +201,8 @@
    "name": "鍾憲瑞",
    "category": "策略學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31585,c3236.php?Lang=zh-tw",
-   "views": 9613,
-   "average_daily_views": 22.88,
+   "views": 9615,
+   "average_daily_views": 22.92,
    "baseline_date": "2026-10-06",
    "keywords": []
   },
@@ -210,8 +210,8 @@
    "name": "陳詠卉",
    "category": "其他",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31600,c3236.php?Lang=zh-tw",
-   "views": 9241,
-   "average_daily_views": 22.44,
+   "views": 9245,
+   "average_daily_views": 22.52,
    "baseline_date": "2026-10-06",
    "keywords": [
     "第二語言習得 英語教學"
@@ -221,8 +221,8 @@
    "name": "陳明德",
    "category": "運籌學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31593,c3236.php?Lang=zh-tw",
-   "views": 7814,
-   "average_daily_views": 20.22,
+   "views": 7817,
+   "average_daily_views": 20.28,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 大數據分析與應用 2. 系統模擬 3. 全球供應鏈管理 4. 專案管理 5. 作業排程 6. 存量管理"
@@ -232,8 +232,8 @@
    "name": "蘇宏仁",
    "category": "行銷學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-31595,c3236.php?Lang=zh-tw",
-   "views": 7805,
-   "average_daily_views": 20.5,
+   "views": 7809,
+   "average_daily_views": 20.58,
    "baseline_date": "2026-10-06",
    "keywords": [
     "1. 消費者行為 2. 網路行銷"
@@ -243,8 +243,8 @@
    "name": "陳維婷",
    "category": "運籌學程",
    "url": "https://busadm.ccu.edu.tw/p/405-1248-84820,c3236.php?Lang=zh-tw",
-   "views": 5182,
-   "average_daily_views": 26.8,
+   "views": 5186,
+   "average_daily_views": 26.88,
    "baseline_date": "2026-10-06",
    "keywords": [
     "作業研究(Operations Research)、商業分析(Business Analytics)、運籌管理(Logistics Management)、航空運輸(Air Transportation)、健康照護物流(Healthcare Logistics)"
@@ -252,11 +252,11 @@
   }
  ],
  "categories": {
-  "運籌學程": 43552,
-  "人力資源學程": 46272,
-  "策略學程": 46903,
-  "行銷學程": 52553,
-  "財務學程": 35615,
-  "其他": 9241
+  "運籌學程": 43574,
+  "人力資源學程": 46286,
+  "策略學程": 46914,
+  "行銷學程": 52580,
+  "財務學程": 35628,
+  "其他": 9245
  }
 }
